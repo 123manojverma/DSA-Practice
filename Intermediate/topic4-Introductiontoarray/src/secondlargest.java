@@ -12,10 +12,14 @@ public class secondlargest {
         int smax=0;
         for(int i=0;i<size;i++){
             if(arr[i]>=arr[max]) {
-                max = i;
                 smax = max;
+                max = i;
+            }else{
+                if(arr[i]>arr[smax]){
+                    smax=i;
+                }
             }
         }
-        System.out.println(smax);
+        System.out.println(arr[smax]);
     }
 }
