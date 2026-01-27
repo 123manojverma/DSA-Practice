@@ -21,9 +21,17 @@ public class QuickSort {
         return i+1;
     }
 
+    public static int randomPartition(int[] a,int l,int r){
+        int pivotIndex=l+(int)(Math.random()*(r-l+1));
+        int temp=a[pivotIndex];
+        a[pivotIndex]=a[r];
+        a[r]=temp;
+        return partition(a,l,r);
+    }
+
     public static void quicksort(int[] nums,int s,int e){
         if(s<e){
-            int pi=partition(nums,s,e);
+            int pi=randomPartition(nums,s,e);
             quicksort(nums,s,pi-1);
             quicksort(nums,pi+1,e);
         }
