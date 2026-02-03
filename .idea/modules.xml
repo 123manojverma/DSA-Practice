@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Contest/Contest.iml" filepath="$PROJECT_DIR$/Contest/Contest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA Practice.iml" filepath="$PROJECT_DIR$/.idea/DSA Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Arrays/Hashing/Hashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Intermediate/Intermediate.iml" filepath="$PROJECT_DIR$/Intermediate/Intermediate.iml" />
